@@ -1,9 +1,21 @@
 {
+  // ===== Existing settings =====
   "azureFunctions.deploySubpath": "bin/Release/net8.0/publish",
   "azureFunctions.projectLanguage": "C#",
   "azureFunctions.projectRuntime": "~4",
   "debug.internalConsoleOptions": "neverOpen",
   "azureFunctions.preDeployTask": "publish (functions)",
+
+  // ===== Azurite FIX (Prevents _blobstorage__ & __azurite* folders in repo) =====
+  // Store Azurite data OUTSIDE the project folder
+  "azurite.location": "~/.azurite-data",
+  "azurite.debug": "~/.azurite-data/debug.log",
+
+  // Stop VS Code from auto-starting Azurite when opening the workspace
+  "azureFunctions.stopFuncTaskPostDebug": true,
+  "azureFunctions.showCoreToolsWarning": false,
+
+  // ===== Keep your C/C++ Runner settings =====
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -61,5 +73,7 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
+
+  // ===== CMake =====
   "cmake.sourceDirectory": "/home/derek/projects/cloudmind-dwg-function/oda_wrapper"
 }
