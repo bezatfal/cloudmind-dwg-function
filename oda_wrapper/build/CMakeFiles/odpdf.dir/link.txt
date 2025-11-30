@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/odpdf.dir/main.cpp.o -o odpdf   -L/home/derek/projects/cloudmind-dwg-function/oda_wrapper/../oda  -Wl,-rpath,/home/derek/projects/cloudmind-dwg-function/oda_wrapper/../oda -lTD_Db -lTD_DbCore -lTD_Ge -lTD_Root -lTD_PdfExport -lTD_PdfHooks -lTD_Gi -lTD_Alloc -lTD_Zlib -llibcrypto -llibssl 

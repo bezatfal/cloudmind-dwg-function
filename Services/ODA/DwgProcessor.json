@@ -1,0 +1,20 @@
+{
+    "data": {
+        "name": "DwgProcessor",
+        "entryPoint": "cloudmind_dwg_function.DwgProcessor.RunAsync",
+        "scriptFile": "cloudmind-dwg-function.dll",
+        "language": "dotnet-isolated",
+        "functionDirectory": "",
+        "bindings": [
+            {
+                "name": "inputBlob",
+                "type": "blobTrigger",
+                "direction": "In",
+                "properties": {
+                    "supportsDeferredBinding": "True"
+                },
+                "path": "%DWG_INPUT_CONTAINER%/{name}"
+            }
+        ]
+    }
+}

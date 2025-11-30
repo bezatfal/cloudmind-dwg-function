@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      "default": "Information",
+      "Function.DwgProcessor": "Information"
+    }
+  },
+  "extensions": {
+    "blobs": {
+      "maxDegreeOfParallelism": 1,
+      "maxQueuePollingInterval": "00:00:02"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/derek/projects/cloudmind-dwg-function/build",
+  "command": "/usr/bin/g++  -I/home/derek/projects/cloudmind-dwg-function/oda_wrapper/../oda -g -std=gnu++17 -o CMakeFiles/odpdf.dir/main.cpp.o -c /home/derek/projects/cloudmind-dwg-function/oda_wrapper/main.cpp",
+  "file": "/home/derek/projects/cloudmind-dwg-function/oda_wrapper/main.cpp",
+  "output": "CMakeFiles/odpdf.dir/main.cpp.o"
+}
+]
